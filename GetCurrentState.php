@@ -38,7 +38,7 @@ class GetCurrentState extends Tool {
         $date = date('Y-m-d');
         $from_time_stamp = "{$date} $from";
         $to_time_stamp = "{$date} $to";
-        $now = date('Y-m-d h:i');
+        $now = date('Y-m-d H:i:s');
         return ($now >= $from_time_stamp) && ($now <= $to_time_stamp);
     }
 
