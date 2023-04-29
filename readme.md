@@ -1,4 +1,4 @@
-1- This project is the backend API for the Control-Angular project.
+1- This project is the backend API for the Actuatuor-Control-Frontend project.
 
 2- The file in `RasPiRunner` (`main.py`) is the main runner file to be hosted on RaspberryPi and to automatically run on
 startup through via `sudo vi /etc/rc.local` and adding `sudo python <script location> &`.
